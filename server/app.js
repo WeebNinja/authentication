@@ -35,7 +35,7 @@ app.post('/register', (req, res) => {
         } else {
           res
             .status(200)
-            .send({ success: false, message: 'User registered successfully' })
+            .send({ success: true, message: 'User registered successfully' })
         }
       })
     }
